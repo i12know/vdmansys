@@ -1,0 +1,28 @@
+# Temporary extraction scripts (dev tooling, not project artifacts)
+extract_pdf*.ps1
+extract_docx.ps1
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Secrets / environment
+.env
+*.env
+secrets/
+*.key
+
+# Logs
+*.log
+
+# Temp files
+*.tmp
+*.bak
+~$*
