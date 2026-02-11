@@ -57,7 +57,7 @@ To build a reliable District office data repository and reporting foundation usi
 | A2. Define data standards | Agree on naming conventions, titles, roles, and required fields for pastor/worker profiles | Feb 28, 2026 |
 | A3. Data normalization sprint | Clean and standardize all existing pastor/worker records to agreed conventions | Mar 31, 2026 |
 | A4. Official church list | Establish and normalize the official list of churches and organizations in the District | Mar 31, 2026 |
-| A5. Review & sign-off | Pastor Peter presents completed directory to Executive Sponsor and Product Owner for approval | Apr 15, 2026 |
+| A5. Review & sign-off | Pastor Peter presents completed directory to Executive Sponsor for approval | Apr 15, 2026 |
 | A6. Ongoing maintenance process | Document the process for keeping the directory current (new pastors, role changes, departures) | Apr 30, 2026 |
 
 ### Stream B — Online Annual Report
@@ -69,7 +69,7 @@ To build a reliable District office data repository and reporting foundation usi
 | B2. Define reporting template | Draft the ChMeetings-based reporting template with minimum data fields; align with C&MA CMS requirements | Mar 15, 2026 |
 | B3. Configure ChMeetings | Set up the reporting structure, forms, and workflows in ChMeetings Diocese tenant | Mar 31, 2026 |
 | B4. Sample Church setup | Create a "Sample Church" configuration in ChMeetings as a training and proof-of-concept environment | Apr 15, 2026 |
-| B5. Pilot with Midway | Pastor Peter's church (Midway, FL) completes a test annual report submission through ChMeetings | Apr 30, 2026 |
+| B5. Pilot with Midway | Pastor Peter's church (Midway) completes a test annual report submission through ChMeetings | Apr 30, 2026 |
 | B6. Training materials | Produce simple guide for churches on how to submit their annual report through ChMeetings | May 31, 2026 |
 | B7. First live annual report cycle | All reporting churches submit 2025 annual report through ChMeetings | Aug 31, 2026 |
 

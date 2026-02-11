@@ -1,6 +1,12 @@
 # Temporary extraction scripts (dev tooling, not project artifacts)
 extract_pdf*.ps1
 extract_docx.ps1
+create_repo.ps1
+create_github_repo.ps1
+
+# Local-only context files (sensitive / internal research — not for public repo)
+context/ChurchCM_com-Review.docx
+context/ChurchCM_com-Review.pdf
 
 # OS files
 .DS_Store
