@@ -80,13 +80,36 @@ These will be revisited once the District office foundation is in place and the 
 
 ---
 
+## Data Sources & Golden Master
+
+The goal is to reconcile data from three independent sources into a **golden master directory** of licensed workers in the Vietnamese District.
+
+| Source | Folder | What it contains | PII level |
+|---|---|---|---|
+| **C&MA Denomination CMS** | `CMA-CMS-data-dump/` | Official church list (110 churches) and licensed individuals (257 workers) — codes, names, status, years of service | Low (names only in xlsx) |
+| **VD Conference Registration** | `VD-Conf-Registration-data-dump/` | HD50 conference registrants & spouses (450 rows), Pastor Directory 2025 MASTER (6 sheets — workers, secretaries, Si Bo, Qua Phu, Thong Cong) with titles, roles, addresses, phone, email | **High** |
+| **ChMeetings Export** | `ChMeetings-data-dump/` | People export from the District ChMeetings tenant (256 rows, 50 fields) — names, contact info, church, roles, notes | **High** |
+
+> **Note:** Only the CMA CMS xlsx is committed to GitHub. The VD Conference Registration and ChMeetings folders are excluded via `.gitignore` because they contain full PII (addresses, phone numbers, emails). CMS screenshots (`.png`) are also excluded.
+
+---
+
 ## Repository Structure
 
 ```
 vdmansys/
 ├── context/                            # Background research and reference documents
-│   ├── project-charter-v1.1.md        # Full charter (scoped down per Feb 10 direction)
-│   ├── ChurchCM_com-Review.docx/.pdf  # Review of ChurchCM (on hold)
+│   ├── CMA-CMS-data-dump/            # C&MA Denomination CMS data (Feb 2026)
+│   │   ├── *.png (local only — contains PII, not committed)
+│   │   └── CMS VN District Churches 2026 0218.xlsx
+│   ├── VD-Conf-Registration-data-dump/  # (local only — high PII, not committed)
+│   │   ├── MSTDCTV and spouses - HD50.xlsx
+│   │   └── Pastor Directory 2025 MASTER.xlsx
+│   ├── ChMeetings-data-dump/          # (local only — high PII, not committed)
+│   │   └── People 03-04-2026.xlsx
+│   ├── project-charter-v1.1.md        # Original charter (pre-descope)
+│   ├── project-charter-v1.2.md        # Current charter (descoped per Feb 10 direction)
+│   ├── VN-District-Management-System-Charter-(1_2).docx
 │   ├── Gmail-VD-Starting-Ideas-2026-02-06.pdf
 │   └── VN-District-Management-System-Charter.pdf
 ├── .gitignore

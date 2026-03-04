@@ -8,6 +8,11 @@ create_github_repo.ps1
 context/ChurchCM_com-Review.docx
 context/ChurchCM_com-Review.pdf
 
+# Data dumps — contain PII (screenshots, phone numbers, addresses, emails)
+context/CMA-CMS-data-dump/*.png
+context/VD-Conf-Registration-data-dump/
+context/ChMeetings-data-dump/
+
 # OS files
 .DS_Store
 Thumbs.db
